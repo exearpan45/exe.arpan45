@@ -1,0 +1,6 @@
+{
+  "name": "Digital Clock",
+  "description": "A precision digital clock featuring customizable alarms, world timezones, chronograph stopwatch, countdown timer, and aesthetic dark themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

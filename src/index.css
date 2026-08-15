@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-mono-digital {
+    font-family: 'Share Tech Mono', 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+  .font-tech {
+    font-family: 'Chakra Petch', 'Plus Jakarta Sans', sans-serif;
+  }
+  .font-sans-ui {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom glow and LCD shadows */
+.text-glow-cyan {
+  text-shadow: 0 0 20px rgba(6, 182, 212, 0.45), 0 0 40px rgba(6, 182, 212, 0.2);
+}
+
+.text-glow-emerald {
+  text-shadow: 0 0 20px rgba(16, 185, 129, 0.5), 0 0 40px rgba(16, 185, 129, 0.25);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 20px rgba(245, 158, 11, 0.45), 0 0 40px rgba(245, 158, 11, 0.2);
+}
+
+.text-glow-rose {
+  text-shadow: 0 0 20px rgba(244, 63, 94, 0.45), 0 0 40px rgba(244, 63, 94, 0.2);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 20px rgba(139, 92, 246, 0.45), 0 0 40px rgba(139, 92, 246, 0.2);
+}
+
+.lcd-backdrop {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 8px 8px;
+}
+
